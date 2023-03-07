@@ -1,6 +1,8 @@
 {
-    "projectTemplates.templatesDirectory": "",          // default directory containing project templates
+    "projectTemplates.templatesDirectory": "C:/Users/JoeT/Documents/PlatformIO/Projects",          // default directory containing project templates
     "projectTemplates.usePlaceholders": true,           // activate placeholder substitution
-    "projectTemplates.placeholders": {  },              // dictionary of default placeholder key-value pairs
+    "projectTemplates.placeholders": { 
+        "author" : "JoeT",
+        "company": "Momark Products Inc." },              // dictionary of default placeholder key-value pairs
     "projectTemplates.placeholderRegExp": "#{(\\w+?)}"  // regular expression to use for detecting placeholders
 }
